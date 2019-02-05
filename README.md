@@ -10,7 +10,7 @@ It is recommended to use conda to install Jupyter and BeakerX, and to manage you
 ```
 conda create -y -n beakerx 'python>=3'
 source activate beakerx
-conda config --env --add pinned_packages 'openjdk>8.0.121'
+conda config --env --add pinned_packages 'openjdk=8.0.152'
 conda install -y -c conda-forge ipywidgets beakerx
 ```
 
