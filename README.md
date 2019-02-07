@@ -14,7 +14,7 @@ conda config --env --add pinned_packages 'openjdk=8.0.152'
 conda install -y -c conda-forge ipywidgets beakerx
 ```
 
-To run jupyter notebook on windows run `activate beakerx`, or `source activate beakerx` on Max or Linux.  
+To run jupyter notebook on windows run `activate beakerx`, or `source activate beakerx` on Mac or Linux.  
 
 Next run `jupyter notebook`.  
 
